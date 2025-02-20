@@ -1,0 +1,18 @@
+{
+  "server": {
+    "port": 3000,
+    "logLevel": "info",
+    "logFile": "~/.mcp/logs/server.log"
+  },
+  "gitlab": {
+    "useAdapter": true,
+    "adapterPath": "~/.mcp/adapters/gitlab-adapter.js",
+    "baseUrl": "https://gitlab.com/api/v4"
+  },
+  "process": {
+    "cleanupOnExit": true,
+    "timeoutMs": 30000,
+    "lockFile": "~/.mcp/server.lock"
+  },
+  "testMode": true
+}
